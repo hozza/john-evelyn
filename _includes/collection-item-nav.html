@@ -1,0 +1,34 @@
+{% comment %}https://gist.github.com/budparr/3e637e575471401d01ec?permalink_comment_id=2647937#gistcomment-2647937{% endcomment %}
+
+{% if page.collection %}
+	{% assign links = site[page.collection]  %}
+{% else %}
+	{% assign links = site.posts  %}
+{% endif %}
+
+{% for link in links %}
+	{% if link.title == page.title %}
+		{% unless forloop.first %}
+			{% assign prev = tmpprev %}
+		{% endunless %}
+		{% unless forloop.last %}
+			{% assign next = links[forloop.index] %}
+		{% endunless %}
+	{% endif %}
+	{% assign tmpprev = link %}
+{% endfor %}
+
+
+<div class="post-pagination">
+	{% if prev %}
+		<a href="{{ prev.url}}" class="pagination-next btn">&larr; {{ prev.title }}</a>
+	{% else %}
+		<span>&nbsp;</span>
+	{% endif %}
+	
+	{% if next %}
+		<a href="{{ next.url}}" class="pagination-previous btn">{{ next.title }} &rarr;</a>
+	{% else %}
+		<span>&nbsp;</span>
+	{% endif %}
+</div>
