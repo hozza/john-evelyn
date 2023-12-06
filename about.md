@@ -22,7 +22,7 @@ You can follow this blog by RSS or email (coming soon) for live delivery as they
 
 This site was developed by [Ben Hoskins](https://benhoskins.dev/) (me) in 2023. I was heavily inspired by [Phil Gyford](https://www.gyford.com/) and his blog for another writer from around the same time period, [Samuel Pepys](https://www.pepysdiary.com/).
 
-I'm a software engineer and not a historian. Should you come across any factual or historical inaccuracies please do get involved on the Github project to correct them.
+I'm a software engineer and not a historian. Should you come across any factual or historical inaccuracies please do get involved on the John Evelyn [Github project](https://github.com/hozza/john-evelyn) to correct them.
 
 I originally came across both Samuel Pepys and John Evelyn on my walks around London's parks. A few years later I came across [Phil's RSS](https://www.gyford.com/phil/writing/feeds/posts/rss/) and the Pepys site. I'd also like to give back by highlighting another great diarist of the time. Reliving John Evelyn's works in an engaging modern context like an email newsletters or an RSS feed from a blog brings a whole new life to London's history.
 
@@ -30,7 +30,7 @@ I run this site at my own cost since the fees are currently small. Even though t
 
 ### Technical
 
-This is a free and open-source project, please do contribute on our Github repository.
+This is a free and open-source project, please do contribute on our [Github repository](https://github.com/hozza/john-evelyn).
 
 We use Jekyll to generate a this static site, and Cloudflare Pages to execute the periodic builds and host it on their global CDN.
 
