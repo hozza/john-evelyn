@@ -16,11 +16,13 @@ defaults:
       type: "posts"
     values:
       layout: post-from-archive
+      author: "John Evelyn"
   -
     scope:
       type: "archive"
     values:
       layout: post
+      author: "John Evelyn"
 
 # Archive
 collections:
