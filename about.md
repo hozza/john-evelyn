@@ -6,11 +6,9 @@ permalink: /about/
 
 **This site is in beta and under active development. Live publishing of blog posts is not functional and subscriptions are also likely to break. The archive may be functional.**
 
-Relive a 17th century Londoner's life as if it were happing today.
+Relive a 17th century Londoner's life. 
 
-John Evelyn [FRS](https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society) was an English writer in the 17th century based in London, UK. 
-
-This site hopes to bring Evelyn's writing back to life as modern blog, as if he were alive and writing today.
+John Evelyn [FRS](https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society) was an English writer in based in London, UK. This site hopes to bring Evelyn's writing back to life as modern blog, as if he were alive and writing today.
 
 You can learn more about his life by reading the full dairy in our [archive](/archive/), [subscribe](/subscribe/) to the live [dairy entries](/), read the published books available on the Gutenberg Project ([Vol 1](https://www.gutenberg.org/ebooks/41218), [Vol 2](https://www.gutenberg.org/ebooks/42081)) or review the sources on [John Evelyn's Wikipedia page](https://en.wikipedia.org/wiki/John_Evelyn).
 
