@@ -1,0 +1,7 @@
+---
+layout: post
+---
+
+{%- assign source = site.archive | where: 'slug', page.slug | first-%}
+
+{{ source.content }}
