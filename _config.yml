@@ -1,0 +1,43 @@
+title: John Evelyn's Blog
+# email: your-email@example.com
+
+description: >-
+  John Evelyn was an English writer in the 17th century. This site brings Evelyn's writing back to live in as modern blog.
+
+url: "https://johnevelyn.blog"
+
+# Build settings
+theme: hitchens-theme
+hide_search: true
+
+# Blog gets content from archive from slug
+permalink: /diary/:slug/
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: post-from-archive
+  -
+    scope:
+      type: "archive"
+    values:
+      layout: post
+
+# Archive
+collections:
+  archive:
+    output: true
+    permalink: /:collection/:title/
+    order:
+      - preface.html
+    # sort_by: date
+
+
+# plugins:
+  # - jekyll-feed
+
+
+exclude:
+  - README.md
+  - _source_data/
